@@ -3,6 +3,8 @@ using namespace std;
 char banco[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 void draw() {
 	cout<<"	---------->Tic Tac Toe<----------"<<endl;
+	cout<<"	Player - (X)	<->	Bot - (O)"<<endl;
+	cout<<"	---------------------------------"<<endl;
 	cout<<" _______________________________________________"<<endl;
 	cout<<"|		|		|		|"<<endl;
 	cout<<"| 	"<<banco[1]<<"	|"<<"	"<<banco[2]<<"	|"<<"	"<<banco[3]<<"	|"<<endl;
