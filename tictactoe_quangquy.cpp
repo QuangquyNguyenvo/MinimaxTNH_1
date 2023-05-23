@@ -17,11 +17,12 @@ void start() {
 	cout<<"|   'Y888  888   'Y8888P   'Y888  'Y888888   'Y8888P  'Y888   'Y88P'    'Y8888' |"<<endl;Sleep(70);
 	cout<<"|_______________________________________________________________________________|"<<endl;Sleep(70);
 	Sleep(1000); system("cls");
-	cout<<"		LOADING"; Sleep(800); system("cls");
-	cout<<"		LOADING."; Sleep(800); system("cls");
-	cout<<"		LOADING. ."; Sleep(800); system("cls");
-	cout<<"		LOADING. . ."; Sleep(800); system("cls");
-	cout<<"		DONE!"; Sleep(800); system("cls");
+	cout<<"LOADING"; Sleep(500); system("cls");
+	cout<<"LOADING."; Sleep(500); system("cls");
+	cout<<"LOADING. ."; Sleep(500); system("cls");
+	cout<<"LOADING. . ."; Sleep(500); system("cls");
+	cout<<"LOADING. . . ."; Sleep(500); system("cls");
+	cout<<"DONE!"; Sleep(800); system("cls");
 }
 void draw() {
 	system("cls");
