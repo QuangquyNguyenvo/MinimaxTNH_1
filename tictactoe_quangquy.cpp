@@ -5,6 +5,24 @@ using namespace std;
 char banco[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 char play='X';
 bool win_check=false, check335=false;
+void start() {
+	system("cls");
+	cout<<" _______________________________________________________________________________"<<endl;Sleep(70);
+	cout<<"|  888     d8b            888                        888                        |"<<endl;Sleep(70);
+	cout<<"|  888     Y8P            888                        888                        |"<<endl;Sleep(70);
+	cout<<"|  888888  888   .d8888   888888   8888b.    .d8888  888888   .d88b.    .d88b.  |"<<endl;Sleep(70);
+	cout<<"|  888     888  d88P''    888         '88  bd88P''   888     d88''88b  d8P  Y8b |"<<endl;Sleep(70);
+	cout<<"|  888     888  888       888     .d888888 888       888     888  888  88888888 |"<<endl;Sleep(70);
+	cout<<"|  Y88b.   888  Y88b.     Y88b.   888  888 Y88b.     Y88b.   Y88..88P  Y8b.     |"<<endl;Sleep(70);
+	cout<<"|   'Y888  888   'Y8888P   'Y888  'Y888888   'Y8888P  'Y888   'Y88P'    'Y8888' |"<<endl;Sleep(70);
+	cout<<"|_______________________________________________________________________________|"<<endl;Sleep(70);
+	Sleep(1000); system("cls");
+	cout<<"		LOADING"; Sleep(800); system("cls");
+	cout<<"		LOADING."; Sleep(800); system("cls");
+	cout<<"		LOADING. ."; Sleep(800); system("cls");
+	cout<<"		LOADING. . ."; Sleep(800); system("cls");
+	cout<<"		DONE!"; Sleep(800); system("cls");
+}
 void draw() {
 	system("cls");
 	cout<<"	---------->Tic Tac Toe<----------"<<endl;
@@ -75,7 +93,7 @@ void w_check() {
 }
 
 int main() {
-	
+	start();
 	draw();
 	while(true) {
 		nhap();	
