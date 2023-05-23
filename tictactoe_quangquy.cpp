@@ -23,14 +23,30 @@ void draw() {
 }
 void nhap(){
 	int vitri;
+	loop:
+	system("cls"); draw(); 
 	cout<<"Nhap vi tri ban muon danh: "; cin>>vitri;
 	if(banco[vitri]!='O'&&banco[vitri]!='X') {
 		banco[vitri] = play;
 	}
+	else {
+		system("cls");
+		draw();
+		cout<<"Vi tri nay da duoc danh, vui long chon vi tri khac!";
+		Sleep(1000);
+		goto loop;
+	}
 }
 void doiluot() {
-	if(play=='X') play='O';
-	else play='X';
+	//HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
+	if(play=='X') {
+		//SetConsoleTextAttribute(console, 10);
+		play='O';
+	}
+	else {
+		//SetConsoleTextAttribute(console ,12);
+		play='X';
+	}
 }
 void w_check() {
 	//check hang` ngang
@@ -59,6 +75,7 @@ void w_check() {
 }
 
 int main() {
+	
 	draw();
 	while(true) {
 		nhap();	
